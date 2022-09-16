@@ -18,3 +18,4 @@ to eject enter the commmand
 ```
 npm reject
 ```
+## Link for the updated Game in react [Link](https://rps-jouer.netlify.app/)
