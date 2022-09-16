@@ -6,8 +6,7 @@ Rock paper and scissor game in react framework.
 ![rock](https://github.com/ChaitanyaOfficiel/Rock-Paper-and-Scissors-using-React-/blob/main/src/img/rock.png)
 ![paper](https://github.com/ChaitanyaOfficiel/Rock-Paper-and-Scissors-using-React-/blob/main/src/img/paper.png)
 ![scissor](https://github.com/ChaitanyaOfficiel/Rock-Paper-and-Scissors-using-React-/blob/main/src/img/scissor.png)
-
-To play live here [Link](https://rps-gameinr.netlify.app/)
+![game](https://github.com/ChaitanyaOfficiel/Rock-Paper-and-Scissors-using-React-/blob/main/Screenshot%20from%202022-09-17%2001-07-27.png)
 
 if You want to download the files 
 ```
