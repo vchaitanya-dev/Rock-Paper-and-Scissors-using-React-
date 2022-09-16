@@ -1,77 +1,112 @@
 body{
-    background: #f43;
-    font-family:'Gill Sans';
-    box-sizing: content-box;
+  background: #f43;
+  font-family:'Gill Sans';
+  box-sizing: content-box;
 }
 h1{
-    font-size: 1.7em;
-    color:#000;
-    text-align: center;
+  font-size: 1.7em;
+  color:#000;
+  text-align: center;
+}
+h2{
+  font-size: 1.2em;
+  color: #000;
+  text-align: center;
 }
 img{
-    width:50%;
+  width:50%;
 }
 .game{
-    width: 55%;
-    min-width: 500px;
-    background-color: #ffffff;
-    padding: 40px 30px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
+  width: 55%;
+  min-width: 500px;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
 }
 .board{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
 .board button{
-   background-color: #f43;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    cursor: pointer;
-    outline: none;
-    border: none;
+ background-color: #f43;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 .info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 /* mobile resposive website css */
-@media (max-width: 320px){
-    h1{
-        font-size:18px;
-        color:#000;
-    }
-    .game{
-        width: 55%;
-        min-width: 300px;
-        background-color: #ffffff;
-        padding: 20px 10px;
-        position: absolute;
-        transform: translate(-50%,-50%);
-        top: 50%;
-        left: 50%;
-        border-radius: 10px;
-    }
-    .board{
-        width: 90%;
-        margin: auto;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .board button{
-        background-color: #f43;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        cursor: pointer;
-        outline: none;
-        border: none;
-    }
+@media (max-width: 600px){
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+      font-size:18px;
+      color:#000;
+  }
+  .game{
+      width: 55%;
+      min-width: 300px;
+      background-color: #ffffff;
+      padding: 20px 10px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+  }
+  .board{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .board button{
+      background-color: #f43;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      cursor: pointer;
+      outline: none;
+      border: none;
+  }
+  h2{
+    font-size: 16px;
+  }
+}
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 20px;
+  width: 20vh;
+  height: 5vh;
+  padding: 5px 5px;
+display:  flex;
+flex-direction: row;
+}
+.toast-message svg{
+  width: 20px;
+}
+.toast-message button{
+  width: 20px;
+  height: 20px;
+}
+.toast-message button svg{
+  width: 10px;
+}
+.toast-message div{
+  font-size: 14px;
 }
